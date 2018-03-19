@@ -1,0 +1,16 @@
+.port{
+    width: 100vw;
+    margin-left: 335px;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    align-items: flex-end;
+}
+.port img{
+    width:300px;
+    height: 180px;    
+    margin: 12px;
+    flex: 0;
+}

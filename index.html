@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" href="css/imagehover.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/nav.css" type="text/css">
+  <link rel="stylesheet" href="css/home.css" type="text/css">
+  <link rel="stylesheet" href="css/about.css" type="text/css">
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
+  <link rel="stylesheet" href="css/skills.css" type="text/css">
+  <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/contact.css" type="text/css">
+</head>
+  <body>
+
+
+    <script src="js/tagCanvas.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+      window.onload = function() {
+        try {
+         // TagCanvas.Start('myCanvas');
+         TagCanvas.Start('myCanvas','tags',{
+            textColour: '#08fdd8',
+            outlineColour: '#252627',
+            reverse: true,
+            depth: 0.8,
+            maxSpeed: 0.05
+          });
+        } catch(e) {
+          // something went wrong, hide the canvas container
+          document.getElementById('myCanvasContainer').style.display = 'none';
+        }
+      };
+     </script>
+
+     <nav class="nav">
+      <div class="logo">
+        <h3>V</h3>
+        <p>vivek</p>
+      </div>
+      <div class="nav-link">
+          <ul class="nav-link">
+            <li><a href="#home"><i class="fa fa-home animated bounceIn" aria-hidden="true"></i></a></li>
+            <li><a href="#about"><i class="fa fa-user-o animated bounceIn" aria-hidden="true"></i></a></li>
+            <li><a href="#skill"><i class="fa fa-cog animated rotateIn" aria-hidden="true"></i></a></li>
+            <li><a href="#port"><i class="fa fa-eye animated bounceIn" aria-hidden="true"></i></a></li>
+            <li><a href="#contact"><i class="fa fa-envelope animated bounceIn" aria-hidden="true"></i></a></li>
+          </ul>
+      </div>
+      <div class="soc">
+        <ul>
+          <li> <a href=""><i class="fa fa-twitter animated bounceIn" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-facebook animated bounceIn" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-github animated bounceIn" aria-hidden="true"></i></a></li>          
+          <li><a href=""><i class="fa fa-feed animated bounceIn" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+     
+    </nav>
+
+    
+
+    <section class="home" id="home">
+      <div class="user-info animated fadeInUp">
+      <h2>Hi,</h2>
+      <h2>I'm <span>V</span>ivek, </h2>
+      <h2>Web developer.</h2>
+      <p>Front End Developer / Anjular </p>
+      <a href="" class="btn">Contact me</a>
+    </div>
+    <div class=logo-area>
+      <h1 class="logo-text">
+        V
+      </h1>
+    </div>
+    </section>
+
+
+    <div id="about"></div>
+    <section class="about">
+      <div class="about-info">
+        <div class="about-header animated fadeInDown">
+          <h1>About me  </h1>
+        </div>
+        <div class="about-text animated fadeInUp">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+       
+        </div>
+      </div>
+      
+    </section>
+
+
+  
+
+    <section class="about" id="skill">
+      <div class="about-info">
+        <div class="about-header animated fadeInDown">
+          <h1>Skills  </h1>
+        </div>
+        <div class="about-text animated fadeInUp">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+       
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="myCanvasContainer">
+          <canvas width="600" height="600" id="myCanvas">
+              <div id="tags">
+              <ul><li> <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML 5</a></li><li><a data-weight="25" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS 3</a></li><li><a data-weight="25" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a></li><li><a data-weight="24" href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">REST</a></li><li><a data-weight="21" href="https://en.wikipedia.org/wiki/Ajax_(programming)" target="_blank">AJAX</a></li><li><a data-weight="14" href="https://en.wikipedia.org/wiki/JSON" target="_blank">JSON</a></li><li><a data-weight="13" href="https://en.wikipedia.org/wiki/XML" target="_blank">XML</a></li><li><a data-weight="27" href="https://en.wikipedia.org/wiki/AngularJS" target="_blank">Angular JS</a></li><li><a data-weight="26" href="https://en.wikipedia.org/wiki/WordPress" target="_blank">Wordpress</a></li><li><a data-weight="22" href="https://en.wikipedia.org/wiki/PHP" target="_blank">PHP</a></li><li><a data-weight="22" href="https://en.wikipedia.org/wiki/MySQL" target="_blank">MySQL</a></li><li><a data-weight="21" href="https://en.wikipedia.org/wiki/Node.js" target="_blank">Node JS</a></li><li><a data-weight="17" href="https://en.wikipedia.org/wiki/Git" target="_blank">Git</a></li><li><a data-weight="17" href="https://en.wikipedia.org/wiki/Underscore.jst" target="_blank">_underscore</a></li><li><a data-weight="17" href="http://handlebarsjs.com/" target="_blank">Handlebars.js</a></li><li><a data-weight="20" href="https://vuejs.org/" target="_blank">Vue.js</a></li><li><a data-weight="23" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap</a></li><li><a data-weight="15" href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank">SASS</a></li><li><a data-weight="20" href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">RWD</a></li><li><a data-weight="19" href="https://en.wikipedia.org/wiki/JQuery" target="_blank">jQuery</a></li><li><a data-weight="19" href="http://mongoosejs.com/" target="_blank">Mongo DB</a></li><li><a data-weight="19" href="https://karma-runner.github.io/1.0/index.html" target="_blank">Karma</a></li><li><a data-weight="19" href="http://gulpjs.com/" target="_blank">Gulp</a></li><li><a data-weight="19" href="https://www.npmjs.com/" target="_blank">npm</a></li><li><a data-weight="19" href="https://bower.io/" target="_blank">Bower</a></li><li><a data-weight="19" href="https://en.wikipedia.org/wiki/BEM" target="_blank">BEM</a></li><li><a data-weight="19" href="https://en.wikipedia.org/wiki/Magento" target="_blank">Magento</a></li><li><a data-weight="13" href="https://en.wikipedia.org/wiki/Drupal" target="_blank">Drupal</a></li><li><a data-weight="14" href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)" target="_blank">Lamp</a></li><li><a data-weight="19" href="https://en.wikipedia.org/wiki/Canvas_element" target="_blank">Canvas</a></li></ul>
+            </div>
+            </canvas>
+        </div>
+        <div class="clear">
+
+        </div>
+      </div>
+    </section>
+
+    <div class="lds-ripple"><div></div><div></div></div>
+
+      <div id="port"></div>
+      <section class="port" >
+
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/blogen.png" alt="">
+              <figcaption>
+                <p> view </p><p>project</p>
+              </figcaption>
+          </figure>
+        
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/LOOPLAB.png" alt="">
+              <figcaption>
+                <p> view </p>
+                <p>project</p>
+              </figcaption>
+          </figure>
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/MOBIINFO.png" alt="">
+              
+              
+              <figcaption>
+                <p> view </p>
+                <p>project</p>
+              </figcaption>
+          </figure>
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/MOUNTAIN.png" alt="">
+              <figcaption>
+                 <p> view </p><p>project</p>
+              </figcaption>
+          </figure>
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/NATOURS.png" alt="">
+              <figcaption>
+                 <p> view </p><p>project</p>
+              </figcaption>
+          </figure>
+
+          
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/RANDOM.png" alt=""> 
+              <figcaption>
+                 <p> view </p><p>project</p>
+              </figcaption>
+          </figure>
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/PIG-GAME.png" alt="">
+              <figcaption>
+                 <p> view </p><p>project</p>
+              </figcaption>
+          </figure>
+
+          <figure class="imghvr-fade imghvr">
+              <img src="img/OMINI.png" alt="">
+              <figcaption>
+                
+                 <p> view </p><p>project</p>
+              </figcaption>
+
+          </figure>
+          <figure class="imghvr-fade imghvr">
+              <img src="img/TRILLO.png" alt="">
+              <figcaption>
+                 <p> view </p><p>project</p>
+              </figcaption>
+          </figure>
+        
+       
+             
+      </section>
+      
+
+
+      <div id="contact"></div>
+      <section class="contact">
+        <div class="about-info">
+        <div class="about-header animated fadeInDown">
+          <h1>Contact me </h1>
+        </div>
+        <div class="about-text animated fadeInUp">
+            
+            <p>If you have any questions,please don't hesitate to contact  using form below...</p>
+            <form action="#" method="post">
+              <div class="input">
+                  <input type="text" name="name" placeholder="Name" class="inp">
+                  <input type="text" name="name" placeholder="Email" class="inp">
+              </div>
+              <input type="text" name="name" placeholder="Name" class=" inp input-sub">
+              <input type="text" name="name" placeholder="Name" class=" inp input-msg">
+              
+            </form>
+       
+        </div>
+      </div>
+      <div class="col-2">
+        <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLSbRVnlUiR2y08Mcw6oFkWdzcMoMObVQ&callback=initMap">
+    </script>
+ 
+      </div>
+      </section>
+
+  
+
+  </body>
+</html>
+

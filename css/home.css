@@ -1,0 +1,54 @@
+.home{
+    margin-left: 135px;
+    color: #fff; 
+    display: flex;
+    height: 100vh;
+    
+}
+.user-info{
+    margin-top: 200px;
+    width:36%;
+}
+.user-info h2{
+    font-size: 55px;
+    margin-top: -15px;
+}
+.user-info span{
+    text-shadow: 2px 2px #FF0000;
+    color:#08fdd8;
+}
+.user-info p{
+    letter-spacing: 3px;
+    color:#8d8d8d;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+}
+.btn{
+    text-decoration: none;
+    color:#08fdd8;
+    padding: 6px 9px;
+    border: solid 1px #08fdd8;
+    display: inline-block;
+    margin-top: 35px;
+    font-weight: 100;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    transition: all .2s;
+    
+}
+.btn:hover{
+    background-color: #08fdd8;
+    color:#000;
+}
+.logo-area{
+    margin-top:50px;
+}
+.logo-text{
+    font-size: 500px;
+    margin-left: 300px;
+    color: #08fdd8;
+    text-shadow:  16px 16px  #FF0000;
+    transform: rotate(30deg)
+}
