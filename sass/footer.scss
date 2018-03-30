@@ -1,0 +1,40 @@
+.footer {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #1C1D21;
+& .footer-follow {
+    text-align: center;
+    margin-bottom: 2rem;
+& li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+ & a {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  border-radius: 5rem;
+  background-color: #6195FF;
+  color:#FFF;
+  & i{
+      font-size: 2rem;
+      padding-top: 1.5rem;
+      &:hover{
+        color:$color-primary;
+      }
+  }
+}
+}
+}
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 0;
+  color:#868F9B;
+}

@@ -1,0 +1,21 @@
+.port{
+    max-width: 100%;
+    margin-left:  22.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20rem;
+    flex-wrap: wrap; 
+   // max-width: 1200px;
+    align-items: center;
+    @include respond(tab-port){
+        margin-left: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.port img{
+    width:300px;
+    height: 180px;    
+    margin: 1.2rem;
+    flex: 0;
+}

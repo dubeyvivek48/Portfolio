@@ -1,0 +1,15 @@
+.about{
+    margin-left: 13.5rem;
+    padding-top:10.1rem;
+    display: flex;
+    height: 100vh;
+
+    
+    @include respond(tab-port){
+        margin-top:-10rem;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+}
+
+

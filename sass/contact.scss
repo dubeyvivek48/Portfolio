@@ -1,0 +1,73 @@
+.contact{
+    margin-left: 13.5rem;
+    padding-top:10.1rem;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 100vh;
+    @include respond(tab-port){
+        flex-direction: column;
+        margin-left: 1rem;       
+    }
+}
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @include respond(tab-port){
+        flex-direction: column;
+        width: 90%;
+    }
+}
+.inp{
+    padding: 1.8rem 2rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.5rem;
+    width: calc(50% - 0.75rem);   
+    background-color: $color-input;
+    border:0;
+    outline: 0;
+    transition: all .4s;
+    &:first-child{
+        margin-right: 1.5rem;
+        @include respond(tab-port){
+            margin-right: 0;
+            
+        }
+
+
+    }
+    @include respond(tab-port){
+        width: 100%;
+    }
+
+    &:focus{
+        
+    border:0;
+    border-bottom: 2px solid $color-primary;
+    }
+}
+.input-sub{
+    width:90%;
+
+}
+.input-msg{
+    width: 90%;
+    height: 14rem;
+    
+}
+ #map {
+        height: 100%;
+        width: 100%;
+
+     }
+     iframe{
+         width: 100%;
+         height: 100%;
+         margin-top: -2rem;  
+         margin-left: -7rem;  
+         @include respond(tab-port){
+             display: none;
+         }       
+     }

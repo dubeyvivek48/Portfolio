@@ -1,0 +1,180 @@
+
+nav{
+    display: flex;
+    height:100vh;
+    width: 6.5rem;
+    flex-direction: column;
+   
+    justify-content: space-between;
+    background-color:$color-background;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    & li{
+        text-decoration: none;
+        list-style-type:  none;
+    }
+   & .nav-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+        
+        & li a i{
+            font-size: 2.7rem;
+            color: $color-icon;
+            margin-top: 2.4rem;
+            transition: all .4s;
+            @include  respond(tab-port){          
+                margin-right: 5rem;
+                }
+        }
+        & li a i:hover{
+            color:$color-primary;
+        }
+
+        
+    }
+
+   & .soc ul li a i{
+    
+        font-size: 1.5rem;
+        color:$color-icon;
+        margin-bottom: 1.7rem;
+        transition: all .4s;
+        
+    &:hover{
+        color:$color-primary;
+    }
+}
+    @include respond(tab-port){
+    flex-direction: row;
+    width: 100vw;
+    top:0;
+    left:0;
+    height:8rem;
+    z-index: 5;
+    .nav-ul{
+        flex-direction: row;
+        align-content: space-between;
+    }
+    .soc{
+        opacity: 0;
+    }
+}
+
+ & .logo{
+    color:$color-primary;
+    font-size: 3.5rem;
+    background-color: $color-dark;
+    width: 6.5rem;
+    height:8rem;
+    text-align: center;
+   &   h3{
+        padding-top: 1rem;
+        text-shadow: 2px 2px #FF0000;
+    }
+   &  p{
+        margin-top:-.6rem;
+        font-size: 1.7rem;
+        color:$color-white;
+    }
+    
+}
+
+
+}
+
+/*
+
+nav{
+    width: 100vw;
+}
+
+.nav{
+    background-color:$color-background;
+    width: 6.5rem;
+    
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    float: left;
+    @include respond(tab-port){
+    width: 100vw;
+    top:0;
+    left:0;
+    height:8rem;
+    z-index: 5;
+    }
+}
+.logo{
+    color:$color-primary;
+    font-size: 3.5rem;
+    background-color: $color-dark;
+    width: 6.5rem;
+    height:8rem;
+    text-align: center;
+    
+}
+.logo  h3{
+    padding-top: 1rem;
+    text-shadow: 2px 2px #FF0000;
+}
+.logo p{
+    margin-top:-.6rem;
+    font-size: 1.7rem;
+    color:$color-white;
+}
+.nav-link{
+    margin-top:6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    @include respond(tab-port){
+        margin-top: -3rem;
+        margin-left: 10rem;
+        flex-direction: row;  
+        align-content: space-between;
+            justify-content: space-around;
+
+        & li{
+            margin: 0 1rem;
+            
+        } 
+    }
+    
+    
+}
+.nav-link ul li a i{
+    font-size: 2.7rem;
+    color: $color-icon;
+    margin-top: 2.4rem;
+    transition: all .4s;
+}
+.nav ul li a i:hover{
+    color:$color-primary;
+}
+.soc{
+    text-align: center;
+    @include respond(tab-port){
+        opacity: 0;
+        z-index: 0;
+    }
+    
+}
+.soc ul li a i{
+    
+    font-size: 1.5rem;
+    color:$color-icon;
+    margin-bottom: 1.7rem;
+    transition: all .4s;
+}
+.soc ul li a i:hover{
+    color:$color-primary;
+}
+*/
