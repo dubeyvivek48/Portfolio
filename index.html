@@ -15,7 +15,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-
+<!--
 
     <script src="js/tagCanvas.js" type="text/javascript"></script>
     
@@ -37,6 +37,23 @@
       };
      </script>
 
+    -->
+<!-- loder   
+    <div class="web_loder" id="loder">
+      <div class="web_loder-img">
+        <div class="web_loder-logo">
+          <h3>V</h3>
+          <p>vivek</p>
+        </div>
+        <div class="web_loder-text">
+          <p>vivek is thinking</p>
+        </div>
+        <div class="web_loder-loder">
+          <div class="web_loder-loder-animation"></div>
+        </div>
+      </div>  
+    </div>
+  -->
      <nav class="nav">
       <div class="logo">
         <h3>V</h3>
@@ -46,7 +63,7 @@
           <ul class="nav-ul">
             <li><a href="#home"><i class="fa fa-home animated bounceIn" aria-hidden="true"></i></a></li>
             <li><a href="#about"><i class="fa fa-user-o animated bounceIn" aria-hidden="true"></i></a></li>
-            <li><a href="#skill"><i class="fa fa-cog animated rotateIn" aria-hidden="true"></i></a></li>
+            <li><a href="#skill" id="ski" ><i class="fa fa-cog animated rotateIn" aria-hidden="true"></i></a></li>
             <li><a href="#port"><i class="fa fa-eye animated bounceIn" aria-hidden="true"></i></a></li>
             <li><a href="#contact"><i class="fa fa-envelope animated bounceIn" aria-hidden="true"></i></a></li>
           </ul>
@@ -87,10 +104,10 @@
           <h1>About me  </h1>
         </div>
         <div class="col-1-text animated fadeInUp">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-       
+          Hi, I am Vivek.
+          I believe a great design can make a good idea even better.
+          I create websites that have both:
+          BEAUTY and BRAIN.|
         </div>
       </div>
       
@@ -105,10 +122,15 @@
           <h1>Skills  </h1>
         </div>
         <div class="col-1-text animated fadeInUp">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est ipsam quaerat soluta omnis. Nobis perspiciatis ducimus consequatur voluptatem saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-       
+            
+          Hello there, I am Vivek, a self-taught web developer.  I think of code as an art. I write code on the bleeding edge that's tuned for performance, well structured and responsive in nature. 
+          
+          <br>
+          <br>
+          I convert the design into responsive HTML5/CSS3 that I call PSD to HTML Development. I am always hungry for new challenges and innovations. 
+          <br><br>
+          My skills include HTML, CSS, Scss Javascript, jQuery, Angular Bootstrap, Semantic UI and GitHub. 
+
         </div>
       </div>
       <div class="col-2">
@@ -126,23 +148,26 @@
       -->
       <div class="progress_wrap">
 	                       
-        
-        <span class="progress_title">HTML &amp; CSS</span>
-        <span class="progress_title float-right ">90%</span> 
-        <div class="progress">
-          <div class="progress-bar" style="width:90%"></div>
+        <div class="progress_txt">
+          <span class="progress_title">HTML &amp; CSS</span>
+          <span id="pro_text-0" class="progress_title float-right " >90%</span> 
         </div>
-
+        <div class="progress">
+          <div class="progress-bar" id="progress0" ></div>
+        </div>
+        <div class="progress_txt">
         <span class="progress_title">Javascript / Jquery</span>
-        <span class="progress_title float-right">96%</span> 
+        <span id="pro_text-1" class="progress_title float-right" >96%</span> 
+      </div>
         <div class="progress">
-          <div class="progress-bar" style="width:96%"></div>
+          <div class="progress-bar" id="progress1" ></div>
         </div>
-
-        <span class="progress_title">Wordpress</span>
-        <span class="progress_title float-right">70%</span> 
+        <div class="progress_txt">
+        <span class="progress_title">Angular</span>
+        <span id="pro_text-2" class="progress_title float-right" >90%</span> 
+        </div>
         <div class="progress">
-          <div class="progress-bar" style="width:90%" ></div>
+          <div class="progress-bar" id="progress2"  ></div>
         </div>
 
       </div>
@@ -159,79 +184,108 @@
 
       <div id="port"></div>
       <section class="port" >
+        <figure class="imghvr-fade imghvr">
+          <img src="img/NATOURS.png" alt="">
+          <a href="https://dubeyvivek48.github.io/NaTours/" target="_blank">
+            <figcaption>
+              <p> view </p>
+              <p>project</p>
+            </figcaption>
+          </a>
+      </figure>
 
 
-          <figure class="imghvr-fade imghvr">
-              <img src="img/BLOG.jpg" alt="">
-              <figcaption>
-                <p> view </p><p>project</p>
-              </figcaption>
-          </figure>
-        
+      <figure class="imghvr-fade imghvr">
+        <img src="img/TRILLO.png" alt="">
+        <a href="https://dubeyvivek48.github.io/trillo/" target="_blank">
+          <figcaption>
+            <p> view </p>
+            <p>project</p>
+          </figcaption>
+        </a>
+    </figure>
 
-          <figure class="imghvr-fade imghvr">
-              <img src="img/LOOPLAB.png" alt="">
-              <figcaption>
-                <p> view </p>
-                <p>project</p>
-              </figcaption>
-          </figure>
+    <figure class="imghvr-fade imghvr">
+      <img src="img/OMINI.png" alt="">
+      <a href="https://dubeyvivek48.github.io/Omnifood/" target="_blank">
+        <figcaption>
+          <p> view </p>
+          <p>project</p>
+        </figcaption>
+      </a>
+
+  </figure>
+
+  <figure class="imghvr-fade imghvr">
+    <img src="img/MOUNTAIN.png" alt="">
+    <a href="https://dubeyvivek48.github.io/Mountain-Travel/" target="_blank">
+      <figcaption>
+        <p> view </p>
+        <p>project</p>
+      </figcaption>
+    </a>
+</figure>
+
+          
 
           <figure class="imghvr-fade imghvr">
               <img src="img/MOBIINFO.png" alt="">
               
               
-              <figcaption>
-                <p> view </p>
-                <p>project</p>
-              </figcaption>
+              <a href="http://mobi-info.surge.sh" target="_blank">
+                <figcaption>
+                  <p> view </p>
+                  <p>project</p>
+                </figcaption>
+              </a>
           </figure>
 
-          <figure class="imghvr-fade imghvr">
-              <img src="img/MOUNTAIN.png" alt="">
-              <figcaption>
-                 <p> view </p><p>project</p>
-              </figcaption>
-          </figure>
+         
 
-          <figure class="imghvr-fade imghvr">
-              <img src="img/NATOURS.png" alt="">
-              <figcaption>
-                 <p> view </p><p>project</p>
-              </figcaption>
-          </figure>
+          
 
           
 
           <figure class="imghvr-fade imghvr">
               <img src="img/RANDOM.png" alt=""> 
-              <figcaption>
-                 <p> view </p><p>project</p>
-              </figcaption>
+              <a href="https://dubeyvivek48.github.io/randum-quotes/." target="_blank">
+                <figcaption>
+                  <p> view </p>
+                  <p>project</p>
+                </figcaption>
+              </a>
           </figure>
 
           <figure class="imghvr-fade imghvr">
               <img src="img/PIG-GAME.png" alt="">
-              <figcaption>
-                 <p> view </p><p>project</p>
-              </figcaption>
-          </figure>
-
+              <a href="https://dubeyvivek48.github.io/Pig-Game/" target="_blank">
+                <figcaption>
+                  <p> view </p>
+                  <p>project</p>
+                </figcaption>
+              </a>
+          </figure>       
+          
           <figure class="imghvr-fade imghvr">
-              <img src="img/OMINI.png" alt="">
+            <img src="img/BLOG.jpg" alt="">
+            <a href="https://dubeyvivek48.github.io/blogen/src/" target="_blank">
               <figcaption>
-                
-                 <p> view </p><p>project</p>
+                <p> view </p>
+                <p>project</p>
               </figcaption>
+            </a>
+        </figure>
+      
 
-          </figure>
-          <figure class="imghvr-fade imghvr">
-              <img src="img/TRILLO.png" alt="">
-              <figcaption>
-                 <p> view </p><p>project</p>
-              </figcaption>
-          </figure>
-        
+        <figure class="imghvr-fade imghvr">
+            <img src="img/LOOPLAB.png" alt="">
+            <a href="https://dubeyvivek48.github.io/looplab/" target="_blank">
+            <figcaption>
+              <p> view </p>
+              <p>project</p>
+            </figcaption>
+          </a>
+        </figure>
        
              
       </section>
@@ -280,7 +334,7 @@
       </footer>
 
   
-
+<script src="js/main.js"></script>
   </body>
 </html>
 
